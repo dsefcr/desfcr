@@ -1,0 +1,3 @@
+      var client = BigQueryClient.Create(projectId);
+            string query = @"SELECT
+                CONCAT(
