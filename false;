@@ -1,0 +1,4 @@
+ public boolean searchUser(String userName) { 
+ 
+        boolean found = false; 
+		// Use the external User manager and search function for the given string 
