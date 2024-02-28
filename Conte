@@ -1,0 +1,2 @@
+  String username = (String)apiContext.get("username"); 
+  String localeCode = (String)apiContext.get("localeCode"); 
