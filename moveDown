@@ -1,0 +1,8 @@
+                me.moveUp()
+            if key_pressed[K_s] or key_pressed[K_DOWN]:
+                me.moveDown()
+            if key_pressed[K_a] or key_pressed[K_LEFT]:
+                me.moveLeft()
+            if key_pressed[K_d] or key_pressed[K_RIGHT]:
+                me.moveRight()
+ 
