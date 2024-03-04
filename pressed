@@ -1,0 +1,6 @@
+                            score += 1000
+                            each.reset()   
+ 
+            key_pressed = pygame.key.get_pressed()
+            if key_pressed[K_w] or key_pressed[K_UP]:
+                me.moveUp()
