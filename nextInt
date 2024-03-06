@@ -1,0 +1,6 @@
+        if (r.nextInt(40) == 0)
+            tank.fire();
+        if (r.nextInt(10) == 0) {
+            if (tank.getX() >= myTank.getX()
+                    && tank.getX() <= myTank.getX() + Tank.SIZE
+                    && tank.getY() > myTank.getY()) {
