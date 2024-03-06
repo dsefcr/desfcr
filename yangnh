@@ -1,0 +1,6 @@
+                tank.setDir(Direction.L);
+                return;
+            } else if (tank.getX() < myTank.getX()
+                    && tank.getY() >= myTank.getY()
+                    && tank.getY() <= myTank.getY() + Tank.SIZE) {
+                tank.setUp(false);
