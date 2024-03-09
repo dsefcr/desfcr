@@ -1,0 +1,7 @@
+    res=re.findall(path, content)
+    if res!=[]:
+        response=res[0]
+    else:
+        response=''
+    return response
+ 
