@@ -1,0 +1,7 @@
+ 
+exitFlag = 0
+ 
+class myThread (threading.Thread):
+    def __init__(self, threadID, name, q):
+        threading.Thread.__init__(self)
+        self.threadID = th
