@@ -1,0 +1,5 @@
+	{
+		for( j=0; j<ROW; j++ )
+		{
+			printf("%8d",matrixB[i][j]);
+		}
