@@ -1,0 +1,5 @@
+def Tree(branch, t):
+  time.sleep(0.0005)
+  if branch > 3:
+    if 8 <= branch <= 12:
+      if random.randint(0, 2) == 0:
