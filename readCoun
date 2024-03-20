@@ -1,0 +1,5 @@
+            char[] chars = new char[4]; //一次读取4个字符
+            int readCount = 0;
+            while ((readCount = reader.read(chars)) != -1) {
+                System.out.print(new String(chars, 0, readCount));
+            }
